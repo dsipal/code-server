@@ -18,7 +18,7 @@ ENTRYPOINT ["/usr/bin/railway-entrypoint.sh"]
 # Install NodeJS
 RUN sudo curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
 RUN sudo apt-get install -y nodejs
-RUN sudo apt install -y vim
+#RUN sudo apt install -y vim
 
 # Install Yarn
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - 
